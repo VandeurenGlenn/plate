@@ -1,0 +1,40 @@
+{
+  "name": "plate",
+  "version": "1.0.0",
+  "description": "app boilerplate command line interface",
+  "main": "index.js",
+  "bin": {
+    "plate": "./cli.js"
+  },
+  "scripts": {
+    "compile": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vandeurenglenn/plate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "plate",
+    "cli",
+    "app",
+    "project",
+    "setup",
+    "generate",
+    "init"
+  ],
+  "author": "Glenn Vandeuren <vandeurenglenn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vandeurenglenn/plate/issues"
+  },
+  "homepage": "https://github.com/vandeurenglenn/plate#readme",
+  "devDependencies": {
+    "rollup": "^1.9.0",
+    "rollup-plugin-terser": "^4.0.4"
+  },
+  "dependencies": {
+    "ora": "^3.4.0"
+  }
+}
